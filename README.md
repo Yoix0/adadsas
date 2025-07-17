@@ -22,6 +22,12 @@ Este repositorio contiene dos proyectos:
   cd prueba
   mvn spring-boot:run
 
+```sql
+INSERT INTO adasas.TMP_LLENAR_CAMPOS
+(id_company, codigo_company, name_company, description_company, version_id, app_id, version, version_description, version_company_id, company_id, app_code, app_name, app_description)
+VALUES(1, 'COMPANIA1', 'ARLEY COMPANY', 'COMPNIA DESCRIPTION', 1, 1, 'V1', 'V1 DESCRIPTION', 1,1, 'APP1', 'APP ALCH', 'APP DESCRIPTION COMPANY');
+
+
 
 ### Proyecto Java (/prueba2)
 
